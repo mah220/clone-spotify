@@ -1,0 +1,210 @@
+
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+#barra-navegacao {
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #1db954;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	left: 170px;
+}
+
+/* CAPA PRINCIPAL */
+
+body{
+	background: url('imagens/capa.png'),url('imagens/ruido.png'),linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	overflow-x: hidden;
+
+}
+
+body, html, .capa {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.capa {
+   display: table;
+   margin: 0px auto;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	margin-bottom: 50px;
+}
+
+.btn-custom {
+	border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	color: white;
+	margin: 15px;
+
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background: #611ec2;
+	color: white;
+	transition: 0.4s;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	border: 2px solid white;
+	background: white;
+	transition: 0.4s;
+	color: black;
+}
+
+/* SERVIÇOS / TIPOGRAFIA */
+
+#servicos {
+	background: white;
+	padding: 20px 100px 20px 100px;
+}
+
+#servicos h2 {
+	color: #7c25f8;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+#servicos h3 {
+	color: #7c25f8;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+p {
+	color: black;
+}
+
+h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* RECURSOS */
+
+#recursos {
+	padding: 20px 85px 20px 100px;
+	color: white;
+}
+
+#recursos h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#recursos h3 {
+	color: #3ef3fa;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#recursos p {
+	color: white;
+}
+
+#tamanho {
+	size: 40px;
+}
+
+/* RODAPE */
+
+footer {
+	background: #000;
+	padding: 50px 95px 20px 95px;
+	position: relative;
+}
+
+footer .nav a:hover {
+	color: #00ffff;
+	background: none;
+}
+
+footer .nav a{
+	color: white;
+	background: none;
+}
+
+.item-rede-social{
+	float: right;
+	background: none;
+	color: red;
+	display: none;
+}
+
+.item-rede-social:hover{
+	float: right;
+	background: none;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 767px) {
+	.item-rede-social {
+	height: 90px;
+	float: none;
+}
+	.item-rede-social:hover {
+	height: 90px;
+	float: none;
+}
+}
